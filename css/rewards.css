@@ -1,0 +1,12 @@
+body{
+    background-color: #f8f8f8cc;
+}
+.cheading{
+    color: #0ad491;
+}
+.element{
+    border-radius: .5rem;
+    padding: .7rem;
+    margin: 2rem;
+    box-shadow: rgba(67, 68, 68, 0.527) 0px 5px 15px;
+}

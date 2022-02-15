@@ -1,0 +1,493 @@
+/*
+
+Easy Profile Template
+http://www.templatemo.com/tm-467-easy-profile
+
+*/
+
+html, body {
+  margin:0;border:0;padding:0;
+  font-size:16px;
+  font-family:'Proxima';
+  overflow-x:hidden;
+  position: relative;
+  vertical-align: baseline;
+}
+
+html {
+    -webkit-font-smoothing: antialiased;
+}
+
+h1 {font-size:40px;}
+h2 {font-size:36px;}
+h3 {font-size:30px;}
+h4 {font-size:24px;}
+h5 {font-size:20px;}
+h6 {font-size:18px;}
+
+h2 {
+  padding-bottom: 14px;
+}
+
+.accent {
+  
+  font-family: 'Proxima Bold';
+  line-height: 14px;
+  color:#0ad491;
+  
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.tm-border {
+	border: .4rem solid #fff;
+  box-shadow: rgba(68, 67, 67, 0.527) 0px 5px 15px;
+}
+
+.shadow {
+	text-shadow: 1px 1px #000;
+}
+
+.tm-title {
+	color: #10d694;
+}
+
+.white {
+  color: rgb(17, 16, 16);
+}
+
+.about,.skills,
+.languages,
+.contact, .experience {
+  padding: 40px;
+  min-height: 330px;
+  border-radius: .5rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.education{
+  padding: 40px;
+  border-radius: .5rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.education, .languages,
+.contact, .experience {
+  margin-top: 30px;
+  
+}
+
+@font-face {
+    font-family: 'Proxima';
+    src: url(../fonts/ProximaNova-Regular.otf);
+}
+
+@font-face {
+    font-family: 'Proxima Bold';
+    src: url(../fonts/ProximaNova-Bold.otf);
+}
+
+/* preloader section */
+.preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+   width: 100%;
+  height: 100%;
+   z-index: 99999;
+   display: -webkit-flex;
+    display: -ms-flexbox;
+   display: flex;
+   -webkit-flex-flow: row nowrap;
+   -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+     -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-items: center;
+     -ms-flex-align: center;
+     align-items: center;
+    background: none repeat scroll 0 0 #fff;
+  background: none repeat scroll 0 0 #f9f9f9;
+}
+.sk-spinner-wordpress.sk-spinner {
+  background-color: #3366CC;
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  position: relative;
+  -webkit-animation: sk-innerCircle 1s linear infinite;
+          animation: sk-innerCircle 1s linear infinite; }
+.sk-spinner-wordpress .sk-inner-circle {
+  display: block;
+  background-color: #fff;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+  border-radius: 8px;
+  top: 5px;
+  left: 5px; }
+
+@-webkit-keyframes sk-innerCircle {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0); }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg); } }
+
+@keyframes sk-innerCircle {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0); }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg); } }
+
+/* header section */
+header {
+  text-align: center;
+  min-height: 400px;
+  overflow: hidden;
+  position: relative;
+  padding-top: 160px;
+  padding-bottom: 140px;
+}
+header img {
+  display: inline-block !important;
+}
+header h2 {
+  padding-top: 40px;
+}
+header hr {
+  border-color: #3366CC;
+  width: 100px;
+}
+
+/* about section */
+.about {
+  background: rgb(240, 240, 240);
+}
+
+/* skills section */
+.skills {
+  background: rgb(240, 240, 240);
+  color: #1f1d1d;
+}
+.skills .progress {
+  border-radius: 1rem;
+  height: .3rem;
+  background: rgba(168, 168, 168, 0.274);
+}
+.skills .progress .progress-bar-primary {
+  background: #0ad491;
+  
+  border-radius: 2rem;
+  
+}
+.skills strong {
+  display: inline-block;
+  font-weight: normal;
+  padding-bottom: 6px;
+}
+
+/* education section */
+.education {
+  background: rgb(240, 240, 240);
+  color: #252525;
+}
+
+.education-content{
+  padding-bottom: .5rem;
+  text-decoration: none;
+}
+.education-content a{
+
+  text-decoration: none;
+}
+
+.education h5 {
+  display: inline-block;
+}
+.education span {
+  padding-right: 10px;
+  padding-left: 20px;
+}
+
+/* languages section */
+.languages {
+  color: rgb(32, 30, 30);
+  background: rgb(240, 240, 240);
+  
+}
+.languages ul {
+  padding: 10px;
+}
+.languages ul li {
+  padding-bottom: 6px;
+}
+
+/* contact section */
+.contact {
+  color: rgb(39, 37, 37);
+  background: rgb(240, 240, 240);
+ 
+}
+.contact .fa {
+  padding-right: 6px;
+}
+
+/* experience section */
+.experience {
+  background: #3366CC;
+  color: #f5f5f5;
+}
+.experience .experience-content {
+  padding-bottom: 14px;
+}
+.experience h5 {
+  display: inline-block;
+}
+.experience span {
+  padding-right: 10px;
+  padding-left: 20px;
+}
+
+/* footer section */
+footer {
+  color: #f9f9f9;
+  text-align: center;
+  padding-top: 140px;
+  padding-bottom: 100px;
+}
+
+/* social icon section */
+.social-icons {
+  padding: 0;
+  margin: 0;
+}
+.social-icons li {
+  padding: .3rem;
+  display: inline-block;
+  list-style: none;
+}
+.social-icons li a {
+  border: 1px solid white;
+  background: transparent;
+  border-radius: 50%;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  transition: all 0.4s ease-in;
+  position: relative;
+  }
+.social-icons li a:hover {
+  border: #0ad491;
+  background: #09b37a;
+  color: white;
+}
+
+@media ( max-width: 980px ) {
+  .skills {
+    margin-top: 30px;
+  }
+}
+
+@media ( max-width: 360px ) {
+  header h1 {
+    font-size: 30px;
+  }
+  .about h2 {
+    font-size: 24px;
+  }
+  .education h4,
+  .experience h4 {
+    font-size: 20px;
+  }
+}
+.cv a{
+  color: white;
+  text-decoration: none;
+  
+}
+.cv{
+  background-color:#0ad491;
+  text-align: center;
+  margin-top: 2rem;
+  padding: .55rem;
+  border-radius: .5rem;
+  font-size: large;
+  cursor: pointer;
+}
+.cv:hover{
+  
+    background-color: #0ad491dc;
+    text-align: center;
+    margin-top: 2rem;
+    padding: .55rem;
+    border-radius: .5rem;
+    font-size: large;
+    cursor: pointer;
+   
+}
+
+.year{
+
+ color: #1e2221;
+}
+.custom-button{
+  border-radius: .25rem;
+  margin: 1rem 0rem;
+  padding: .5rem 1rem;
+  color: white;
+  background-color: #0ad491;
+  
+}
+.custom-button:hover{
+
+  color: white;
+  background-color: #9e8204;
+  
+}
+.customsvg{
+  width: .8rem;
+ fill: #0ad491;
+  margin-right: .5rem;
+}
+
+.customproperty{
+  padding-left: 1.5rem;
+  color: #0ad491;
+}
+.cerficationhead{
+font-weight: bold;
+color: #0ad491;
+}
+.rollingtext{
+  color: #9e8204;
+}
+.rewards{
+  font-size: large;
+  text-align: center;
+  
+  padding: .5rem;
+  border-radius: .5rem;
+  margin-top: 2rem;
+  cursor:pointer;
+  background-color: #09b37a;
+  max-width:100rem;
+}
+.rewards:hover{
+  background-color: #09b37ad5;
+}
+.rewards a{
+  text-decoration: none;
+  color: #f5f5f5;
+}
+.rollingtext{
+  color: #9e8204;
+}
+/* -----------------------------------  */
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900&display=swap');
+
+
+ body{
+ 	margin:0;
+ 	font-family: 'Poppins', sans-serif;
+ 	font-weight: 400;
+ }
+
+ /* *{
+ 	box-sizing: border-box;
+ } */
+
+ /* .container{
+ 	max-width: 1170px;
+ 	width: 100%;
+ 	margin:auto;
+ } */
+
+ .home{
+ 	/* height: 100vh; */
+ 	background-image: url("images/bg.jpg");
+ 	background-position: center;
+ 	display: flex;
+ 	flex-wrap: wrap;
+ 	position: relative;
+ }
+ .home::before{
+ 	content: '';
+ 	left:0;
+ 	top:0;
+ 	width: 100%;
+ 	height: 100%;
+ 	background-color: rgba(0,0,0,0.8);
+ 	z-index: 1;
+ }
+
+ .home .home-text{
+ 	text-align: center;
+ 	position: relative;
+ 	z-index: 2;
+ }
+
+.home .home-text h1{
+	color:#ffffff;
+	font-size: 50px;
+	color:#ffffff;
+	line-height: 56px;
+	font-weight: 700;
+	margin:0 0 20px;
+}
+.home .home-text h4{
+	margin:0;
+	overflow: hidden;
+  position: relative;
+}
+.home .home-text h4 span{
+  position: relative;
+    /* font-size: large; */
+    color:#ff2c45;
+    font-weight: 700;
+    display: inline-block;
+    line-height: 46px;
+    display: none;
+}
+
+.animate-text span a{
+  text-decoration: none;
+  color: #9e8204;
+}
+
+.home .home-text h4 span.text-in{
+	display: block;
+	animation: textIn .5s ease;
+}
+.home .home-text h4 span.text-out{
+	animation: textOut .5s ease;
+}
+@keyframes textIn{
+	0%{
+		transform: translateY(100%);
+	}
+	100%{
+		transform: translateY(0%);
+	}
+}
+@keyframes textOut{
+	0%{
+		transform: translateY(0%);
+	}
+	100%{
+		transform: translateY(-100%);
+
+	}
+}
+
